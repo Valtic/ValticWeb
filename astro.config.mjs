@@ -4,8 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://valtic.github.io',
-	base: '/ValticWeb_MultiTerm',
+	site: 'https://valtic.github.io/ValticWeb_MultiTerm',
+	//base: '/ValticWeb_MultiTerm',
 	integrations: [
 		starlight({
 			title: 'My Docs',
